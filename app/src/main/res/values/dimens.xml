@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="periodic_table_box_width">120dp</dimen>
+    <dimen name="periodic_table_box_height">160dp</dimen>
+
+    <dimen name="small_periodic_table_box_width">90dp</dimen>
+    <dimen name="small_periodic_table_box_height">130dp</dimen>
+
+    <dimen name="big_periodic_table_box_width">160dp</dimen>
+    <dimen name="big_periodic_table_box_height">200dp</dimen>
+
+    <dimen name="text_padding">10dp</dimen>
+    <dimen name="periodic_table_box_margin">1dp</dimen>
+
+    <dimen name="subactivity_margin">50dp</dimen>
+    
+</resources>

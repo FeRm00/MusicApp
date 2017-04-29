@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kikisnight.musicapp.NowPlayingActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="@dimen/big_periodic_table_box_width"
+        android:layout_height="@dimen/big_periodic_table_box_height"
+        android:layout_margin="@dimen/subactivity_margin"
+        android:background="@drawable/rounded_corner">
+
+        <TextView
+            style="@style/NumberPeriodicTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/n_number" />
+
+        <TextView
+            android:id="@+id/n_Letter"
+            style="@style/PeriodicTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/n_symbol" />
+
+        <TextView
+            style="@style/LittlePeriodicTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/n_Letter"
+            android:layout_centerHorizontal="true"
+            android:text="@string/n_text" />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/n_playlist"
+            android:layout_width="@dimen/small_periodic_table_box_width"
+            android:layout_height="@dimen/small_periodic_table_box_height"
+            android:layout_margin="@dimen/periodic_table_box_margin"
+            android:background="@drawable/rounded_corner_light">
+
+            <TextView
+                style="@style/SmallNumberPeriodicTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/p_number" />
+
+            <TextView
+                android:id="@+id/n_p_Letter"
+                style="@style/SmallPeriodicTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/p_symbol" />
+
+            <TextView
+                style="@style/SmallLittlePeriodicTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/n_p_Letter"
+                android:layout_centerHorizontal="true"
+                android:text="@string/p_text" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/n_list_artist"
+            android:layout_width="@dimen/small_periodic_table_box_width"
+            android:layout_height="@dimen/small_periodic_table_box_height"
+            android:layout_margin="@dimen/periodic_table_box_margin"
+            android:background="@drawable/rounded_corner_light">
+
+            <TextView
+                style="@style/SmallNumberPeriodicTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/li_number" />
+
+            <TextView
+                android:id="@+id/n_li_Letter"
+                style="@style/SmallPeriodicTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/li_symbol" />
+
+            <TextView
+                style="@style/SmallLittlePeriodicTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/n_li_Letter"
+                android:layout_centerHorizontal="true"
+                android:text="@string/p_text" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/n_search_screen"
+            android:layout_width="@dimen/small_periodic_table_box_width"
+            android:layout_height="@dimen/small_periodic_table_box_height"
+            android:layout_margin="@dimen/periodic_table_box_margin"
+            android:background="@drawable/rounded_corner_light">
+
+            <TextView
+                style="@style/SmallNumberPeriodicTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/se_number" />
+
+            <TextView
+                android:id="@+id/n_se_Letter"
+                style="@style/SmallPeriodicTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/se_symbol" />
+
+            <TextView
+                style="@style/SmallLittlePeriodicTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/n_se_Letter"
+                android:layout_centerHorizontal="true"
+                android:text="@string/se_text" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

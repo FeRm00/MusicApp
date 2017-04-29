@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Music App</string>
+
+
+    <string name="n_text">Now Playing</string>
+    <string name="n_symbol">N</string>
+    <string name="n_number">7</string>
+
+    <string name="p_text">Playlist</string>
+    <string name="p_symbol">P</string>
+    <string name="p_number">15</string>
+
+    <string name="li_text">List Artist</string>
+    <string name="li_symbol">Li</string>
+    <string name="li_number">3</string>
+
+    <string name="se_text">Search Screen</string>
+    <string name="se_symbol">Se</string>
+    <string name="se_number">34</string>
+</resources>
