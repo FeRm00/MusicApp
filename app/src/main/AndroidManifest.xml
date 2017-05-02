@@ -18,16 +18,20 @@
         </activity>
         <activity
             android:name=".NowPlayingActivity"
-            android:label="@string/n_text"/>
+            android:label="@string/n_text"
+            android:parentActivityName="com.kikisnight.musicapp.MainActivity"/>
         <activity
             android:name=".PlaylistActivity"
-            android:label="@string/p_text"/>
+            android:label="@string/p_text"
+            android:parentActivityName="com.kikisnight.musicapp.MainActivity"/>
         <activity
             android:name=".ListArtistActivity"
-            android:label="@string/li_text"/>
+            android:label="@string/li_text"
+            android:parentActivityName="com.kikisnight.musicapp.MainActivity"/>
         <activity
             android:name=".SearchScreenActivity"
-            android:label="@string/se_text">
+            android:label="@string/se_text"
+            android:parentActivityName="com.kikisnight.musicapp.MainActivity">
         </activity>
     </application>
 

@@ -17,4 +17,11 @@
     <string name="se_text">Search Screen</string>
     <string name="se_symbol">Se</string>
     <string name="se_number">34</string>
+
+    <!--Explanation of the purpose for each Activity-->
+
+    <string name="explain_Now_Playiny">The purpose of this activity is to play the differents songs on the app</string>
+    <string name="explain_Playlist">On this activity shows all songs found on the specific music folder and it is created a playlist.</string>
+    <string name="explain_List_Artist">On this activity you get the names of the artist from the songs, and they are listed with information obtained from some internet through an API website.</string>
+    <string name="explain_Search_Screen">An activity to search on the device the specific song, artist or album that have been obtained from the songs.</string>
 </resources>

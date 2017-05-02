@@ -5,6 +5,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
+
+//Class to access to play music
+import android.media.MediaPlayer;
+
+//Methods to implement:
+// Start a song: mediaPlayer.start()
+// Pause a song: mediaPlayer.pause();
+// Returns the total time duration of song in milliseconds: mediaPlayer.getDuration();
+// Returns the current position of song in milliseconds: mediaPlayer.getCurrentPosition()
+// Selects the track from the list on that particular index: selectTrack(int index)
+// Returns an array of track information: getTrackInfo()
 
 public class NowPlayingActivity extends AppCompatActivity {
 
@@ -44,5 +56,9 @@ public class NowPlayingActivity extends AppCompatActivity {
                 startActivity(n_searchScreenIntent);
             }
         });
+
+        //Explanation of the purpose of this activity
+        Toast toast = Toast.makeText(getApplicationContext(), getApplicationContext().getResources().getString(R.string.explain_Now_Playiny), Toast.LENGTH_LONG);
+        toast.show();
     }
 }
